@@ -26,6 +26,12 @@ ul {
   list-style: none;
 }
 
+/* Remover Cursor */
+h1:hover, h2:hover, 
+h3:hover, p:hover {
+  cursor: default;
+}
+
 /* HEADER */
 .top__header {
   display: flex;
