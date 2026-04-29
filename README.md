@@ -34,7 +34,7 @@ O projeto inclui os seguintes elementos:
 ## 🏷️ Tecnologias Utilizadas
 
 ### HTML
-- Estrutura semântica: <header>, <main>, <section>, <nav>, <footer>
+- Estrutura semântica: `<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`
 - Uso de listas para menus e navegação
 - Imagens com atributos alt para acessibilidade
 ### CSS
@@ -68,7 +68,7 @@ Design inspirado em layout encontrado no Pinterest (landing page de serviços el
 
 
 ## 🔗 Links
-🔴 Projeto online: <a href="https://shillue.github.io/casavolt-landing-page/" target="_blank" rel="noopener noreferrer">Link</a>
+🔴 Projeto online: [Link](https://shillue.github.io/casavolt-landing-page/)
 
 ## 📁 Estrutura do Projeto
 
