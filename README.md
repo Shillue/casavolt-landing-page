@@ -68,8 +68,7 @@ Design inspirado em layout encontrado no Pinterest (landing page de serviços el
 
 
 ## 🔗 Links
-🔴 Projeto online: [Link](https://github.com/Shillue/casavolt-landing-page.git)     
-📁 Repositório: Link
+🔴 Projeto online: <a href="https://shillue.github.io/casavolt-landing-page/" target="_blank" rel="noopener noreferrer">Link</a>
 
 ## 📁 Estrutura do Projeto
 
