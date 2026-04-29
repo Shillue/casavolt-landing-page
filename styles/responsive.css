@@ -1,0 +1,292 @@
+/* ======= ======= ====== */
+/* Telas Menores que 1220px  */
+/* ======= ======= ====== */
+@media (max-width: 1220px) {
+  /* HEADER */
+  /* botão orçamento */
+  .btn__cta {
+    margin-left: 30px;
+  }
+
+  /* Main section INTRODUCTION */
+  .container__main .introduction {
+    padding: 20px 0px;
+  }
+
+  .container__main .introduction .introduction__description {
+    width: 50%;
+  }
+
+  .introduction .introduction__description__text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* ======= ======= ====== */
+/* Telas Menores que 1160px  */
+/* ======= ======= ====== */
+@media (max-width: 1160px) {
+  /* HEADER */
+.top__header {
+  width: 100%;
+}
+  /* Menu */
+  .menu__main .lista__menu {
+    gap: 1rem;
+  }
+
+  /* Links */
+  .menu__item a,
+  .submenu a {
+    font-size: 0.8rem;
+  }
+
+  /* Botão Orçamento */
+  .btn__cta span {
+    font-size: 0.8rem;
+  }
+/* MAIN */
+.container__main {
+  width: 100%;
+}
+  /* Main Section Introduction */
+  .container__main .introduction {
+    background-size: 450px 100%;
+  }
+
+}
+
+
+
+/* ======= ======= ====== */
+/* Telas Menores que 1130p  */
+/* ======= ======= ====== */
+@media (max-width: 1139px) {
+  /*Section services cards*/
+  .services .cards__services {
+    width: 100%;
+    padding: 5px;
+  } 
+
+  .services .cards__services .card__services {
+    width: 24rem;
+    height: auto;
+  }
+
+  /* Section Featured Cards */
+  .featured-cards {
+    gap: 10px;
+  }
+
+  /* Base Card */
+  .featured-cards .feature-card {
+    justify-content: center;
+    width: 49%;
+    height: 21rem;
+  }
+
+  /* Card Left */
+  .card-left {
+    padding: 10px;
+  }
+
+  .card-left h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-main-image {
+    width: 50%;
+  }
+
+  .btn-card {
+    padding: 14px;
+  }
+
+  /* card Right */
+  .top-image {
+    margin-bottom: 15px;
+  }
+
+  .card-right-content h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+/* ======= ======= ====== */
+/* Telas Menores que 1000px  */
+/* ======= ======= ====== */
+@media (max-width: 1000px) {
+  /* HEADER */
+  .top__header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    gap: 20px;
+  }
+
+  /* menu quebra linha se não couber */
+  .menu__main,
+  .lista__menu {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .lista__menu .menu__item {
+    padding: 8px 10px;
+  }
+
+  /* botão orçamento */
+  .btn__cta {
+    margin-left: 0px;
+  }
+  /* MAIN */
+  .container__main {
+    padding: 0px 20px;
+  }
+
+  /* Main Section Introduction */
+  .container__main .introduction {
+    background: none;
+    justify-content: center;
+  }
+
+  .container__main .introduction::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../assets/images/main.jpeg") no-repeat center/cover;
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  .container__main .introduction .introduction__description {
+    align-items: center;
+    width: 100%;
+    max-width: 650px;
+    padding: 10px;
+  }
+
+  .introduction .introduction__description .introduction__description__text {
+    text-align: center;
+  }
+}
+
+
+
+/* ======= ======= ====== */
+/* Telas Menores que 850px  */
+/* ======= ======= ====== */
+@media (max-width: 850px) {
+ 
+  /*Section services cards*/
+  .linha {
+    display: none;
+  }
+  /* Section Featured Cards */
+  /* Base Card */
+  .featured-cards .feature-card {
+    width: 24rem;
+  }
+}
+
+
+
+/*=======================*/
+/* Telas Menos que 500px*/
+/*=======================*/
+@media (max-width: 500px) {
+  /* HEADER */
+  .top__header {
+    padding: 30px 2px 10px 2px;
+  }
+
+  /* MAIN */
+  .container__main {
+    padding: 0px;
+  }
+
+  /* Main section Introduction */
+  .container__main .introduction .introduction__description {
+    width: 90%;
+  }
+
+  .introduction .introduction__description .introduction__description__text {
+    padding: 10px;
+  }
+
+  .introduction .introduction__description__text h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .introduction .introduction__description__text p {
+    font-size: 0.9rem;
+  }
+
+  /* Introduction Btn*/
+  .introduction__btn {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn__catalogo,
+  .btn__falar {
+    width: 100%;
+  }
+
+  /*Section services cards*/
+  .services .cards__services {
+    width: 100%;
+  }
+
+  .services .cards__services .card__services {
+    padding: 5px;
+    width: 93%;
+    height: auto;
+  }
+  .services .services__description {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .services .services__description h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+   
+  .services .services__description p {
+    font-size: 0.9rem;
+  }
+
+  /* ícone do card */
+  .card__services .card__services__img {
+    width: 100px;
+    height: 50px;
+    margin: 5px 20px 0px 10px;
+  }
+
+  /* Conteudo card */
+  .card__services__content h3 {
+    font-size: 1.05rem;
+  }
+
+  .card__services__content p {
+    font-size: 0.9rem;
+  }
+
+  /* Imagem Flutuante */
+.floating-device {
+  width: 120px;
+}
+
+}

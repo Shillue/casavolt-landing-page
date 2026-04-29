@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, Landing page, Frond-end">
+  <meta name="description" content="Recriando uma página de serviços elétricos residenciais a partir de um modelo.">
+  <meta name="author" content="Shilluê">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/icon.png">
+
+  <title>CasaVolt</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="top__header">
+    <!-- Logo -->
+    <a class="logo" href="./index.html">
+      <img src="./assets/images/logo.png" alt="Logo CasaVolt" />
+    </a>
+
+    <!-- Menu principal -->
+    <nav class="menu__main">
+      <ul class="lista__menu">
+
+        <li class="menu__item dropdown">
+          <a class="menu__link" href="#">Por Ambiente</a>
+          <ul class="submenu">
+            <li><a href="#">Área Externa</a></li>
+            <li><a href="#">Banheiro</a></li>
+            <li><a href="#">Cozinha</a></li>
+            <li><a href="#">Quarto</a></li>
+            <li><a href="#">Sala de Estar</a></li>
+            <li><a href="#">Sala de Jantar</a></li>
+            <li><a href="#">Jardim</a></li>
+            <li><a href="#">Escritório</a></li>
+          </ul>
+        </li>
+
+        <li class="menu__item dropdown">
+          <a class="menu__link" href="#">Serviços</a>
+          <ul class="submenu">
+            <li><a href="#">Instalações elétricas</a></li>
+            <li><a href="#">Manutenção</a></li>
+          </ul>
+        </li>
+
+        <li class="menu__item"><a href="#">Catálgo</a></li>
+        <li class="menu__item"><a href="#">Mais Vendidos</a></li>
+        <li class="menu__item"><a href="#">Quem Somos</a></li>
+        <li class="menu__item"><a href="#">Contato</a></li>
+
+      </ul>
+      <!-- Botão orçamento -->
+      <a href="#" class="btn__cta">
+        <img src="./assets/icon/icon2.png" alt="Ícone CasaVolt">
+        <span>Orçamento</span>
+      </a>
+    </nav>
+
+  </header>
+
+  <!-- Main -->
+  <main class="container__main">
+    <!-- Introduction -->
+    <section class="introduction">
+      <!-- Texto -->
+      <div class="introduction__description">
+        <div class="introduction__description__text">
+          <h1>Transforme sua casa com instalações elétricas profissionais</h1>
+          <p>Mais do que iluminar, transformamos ambientes. Criamos luz que valoriza seu lar, traz conforto, segurança e um toque de modernidade em cada detalhe.</p>
+        </div>
+        <!-- Botões -->
+        <div class="introduction__btn">
+          <a href="#" class="btn__catalogo">
+            <img src="./assets/icon/catalogare.png" alt="Catálogo">
+            <span>Ver Catálogo</span>
+          </a>
+          <a href="#" class="btn__falar">Falar com especialista</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+  <section class="services">
+    <!-- Título -->
+    <div class="services__description">
+      <h2>Boost Your Electrician Today</h2>
+      <p>A plataforma ideal para conectar você com especialistas qualificados, garantindo serviços rápidos, seguros e de alta qualidade.</p>
+    </div>
+
+    <!-- Cards Services -->
+    <div class="cards__services">
+
+      <!-- Card 1 -->
+      <a href="#" class="card__services">
+        <div class="card__services__img">
+          <img src="./assets/images/circuito.png" alt="Circuito elétrico">
+        </div>
+        <div class="card__services__content">
+          <h3>Instalações Elétricas Profissionais</h3>
+          <p>Conte com especialistas qualificados para realizar instalações seguras, eficientes e dentro das normas.</p>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="#" class="card__services">
+        <div class="card__services__img">
+          <img src="./assets/images/ilumina.png" alt="icone de lâmpada">
+        </div>
+        <div class="card__services__content">
+          <h3>Iluminação Inteligente</h3>
+          <p>Soluções modernas em iluminação que valorizam seu ambiente, economizam energia e trazem mais conforto.</p>
+        </div>
+      </a>
+
+      <div class="linha"></div>
+      <!-- Card 3 -->
+      <a href="#" class="card__services">
+        <div class="card__services__img">
+          <img src="./assets/images/atendimento.png" alt="Ícone de atendimento ao cliente">
+        </div>
+        <div class="card__services__content">
+          <h3>Atendimento Rápido no Local</h3>
+          <p>Equipe pronta para atender você com agilidade, levando tecnologia e solução até a sua casa.</p>
+        </div>
+      </a>
+
+      <!-- Card 4 -->
+      <a href="#" class="card__services">
+        <div class="card__services__img">
+          <img src="./assets/images/projeto.png" alt="ícone de projeto">
+        </div>
+        <div class="card__services__content">
+          <h3>Projetos Personalizados</h3>
+          <p>Criamos soluções sob medida para transformar cada espaço com estilo, funcionalidade e eficiência.</p>
+        </div>
+      </a> 
+    </div>
+  </section>
+
+  <!-- Featured Cards -->
+  <section class="featured-cards">
+    <!-- Card featured 1 -->
+     <section class="feature-card card-left">
+      <h2>Projetos de Iluminação Premium</h2>
+      <div class="card-left-content">
+        <div class="card-main-image">
+          <img src="./assets/images/card1.jpeg" alt="Projeto iluminação">
+        </div>
+        <div class="card-side-info">
+          <div class="card-side-info-titulo">
+            <div class="mini-icon">
+              <img src="./assets/icon/raio.png" alt="icon raio"> 
+            </div>
+            <h3>Ambientes Inteligentes</h3>
+          </div>
+          <p> Soluções elétricas modernas para valorizar seu espaço com beleza, eficiência energética e segurança.</p>
+          <a href="#" class="btn-card">
+          Solicitar Projeto
+          </a>
+        </div>
+      </div>
+     </section>
+
+     <!-- Card featured 2 -->
+      <section class="feature-card card-right">
+        <div class="top-image">
+          <img src="./assets/images/card2.jpeg" alt="Instalação elétrica">
+        </div>
+        
+        <div class="card-right-content">
+          <h2>Instalações Residenciais Profissionais</h2>
+          <p>Do planejamento à execução, criamos sistemas elétricos seguros e modernos para transformar seu lar.</p>
+          <div class="card-action">
+            <a href="" class="round-button">
+              <img src="./assets/icon/seta.png" alt="ícone seta">
+            </a>
+            <span>Falar com especialista</span>
+          </div>
+        </div>
+        <div class="floating-device">
+          <img src="./assets/images/card2-02.png" alt="Projeto digital">
+        </div>
+      </section>
+  </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Coded by <a href="https://www.linkedin.com/in/shillu%C3%AA/" target="_blank" rel="noopener noreferrer">Shilluê</a>.</p>
+  </footer>
+</body>
+
+</html>
