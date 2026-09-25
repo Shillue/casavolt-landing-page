@@ -602,6 +602,7 @@ h3:hover, p:hover {
 .card-action span {
   font-size: 15px;
   opacity: 0.85;
+  cursor: default;
 }
 
 /* Imagem Flutuante */
