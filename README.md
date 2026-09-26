@@ -60,7 +60,7 @@ Durante o desenvolvimento, foram praticados:
 
 ## 🖼️ Modelo de Referência
 
-Design inspirado em layout encontrado no Pinterest (landing page de serviços elétricos).
+Design inspirado em layout encontrado no Pinterest (landing page de serviços elétricos).          
 <img width="300" height="420" alt="Professional Electrician Website – Showcase Your Services Online" src="https://github.com/user-attachments/assets/7dc5e6d1-b149-4252-b85b-54c57da33815" />
 
 ## 🌟 Pré-visualização
